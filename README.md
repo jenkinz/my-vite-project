@@ -33,3 +33,11 @@ Prerequesites: Install `node.js` (`brew install node`)
 
         $ npm install --save-dev tailwindcss postcss autoprefixer
         $ npx tailwindcss init --postcss
+
+5. Install other plugins for development:
+
+        $ npm install --save-dev eslint eslint-plugin-vue
+        $ npm install --save-dev eslint-config-prettier
+        $ npm install --save-dev eslint-plugin-prettier
+        $ npm install --save-dev --save-exact prettier
+        $ npm install --save-dev prettier-plugin-tailwindcss

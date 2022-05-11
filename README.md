@@ -8,33 +8,33 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Project Setup
 
-Reference: https://tailwindcss.com/docs/guides/vite
+**Reference:** https://tailwindcss.com/docs/guides/vite
 
-Prerequesites: Install `node.js` (`brew install node`)
+**Prerequisites:** Install `node.js` (`brew install node`)
 
-1. To setup this project from a clean slate, run the following. If you cloned this project, skip to step 2.
+1.  To setup this project from a clean slate, run the following. If you cloned this project, skip to step 2.
 
         $ npm init vite my-vite-project
 
     - Select `vue` as the framework
     - Select variant `vue`
 
-2. Install dependencies:
+2.  Install dependencies:
 
         $ npm install
 
-3. Run the development server:
+3.  Run the development server:
 
         $ npm run dev
 
     - Visit http://localhost:3000 to test it out
 
-4. Install Tailwind CSS:
+4.  Install Tailwind CSS:
 
         $ npm install --save-dev tailwindcss postcss autoprefixer
         $ npx tailwindcss init --postcss
 
-5. Install other plugins for development:
+5.  Install other plugins for development:
 
         $ npm install --save-dev eslint eslint-plugin-vue
         $ npm install --save-dev eslint-config-prettier

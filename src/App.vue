@@ -54,9 +54,9 @@ import DestinationCard from './components/DestinationCard.vue';
           Workcation helps you find work-friendly rentals in beautiful locations
           so you can enjoy some nice weather even when you're not on vacation.
         </p>
-        <div class="mt-4">
+        <div class="mt-4 sm:mt-6">
           <a
-            class="inline-block rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg sm:mt-6 sm:text-base"
+            class="focus:ring-op-50 inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:outline-none focus:ring focus:ring-indigo-500 focus:ring-offset-2 active:bg-indigo-600 sm:mt-6 sm:text-base"
             href="#"
             >Book your escape</a
           >

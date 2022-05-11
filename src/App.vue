@@ -1,33 +1,40 @@
-<script setup>
+<script>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 // import HelloWorld from './components/HelloWorld.vue';
-// import DestinationCard from './components/DestinationCard.vue';
+import DestinationCard from './components/DestinationCard.vue';
 
-const data = {
-  popularDestinations: [
-    {
-      city: 'Toronto',
-      averagePrice: 120,
-      propertyCount: 76,
-      imageUrl: './assets/toronto.png',
-      imageAlt: 'Toronto skyline',
-    },
-    {
-      city: 'Malibu',
-      averagePrice: 215,
-      propertyCount: 43,
-      imageUrl: './assets/toronto.png',
-      imageAlt: 'Cliff in Malibu',
-    },
-    {
-      city: 'Chicageo',
-      averagePrice: 130,
-      propertyCount: 115,
-      imageUrl: './assets/toronto.png',
-      imageAlt: 'Chicago skyline',
-    },
-  ],
+export default {
+  components: {
+    DestinationCard,
+  },
+  data() {
+    return {
+      popularDestinations: [
+        {
+          city: 'Toronto',
+          averagePrice: 120,
+          propertyCount: 76,
+          imageUrl: './assets/toronto.png',
+          imageAlt: 'Toronto skyline',
+        },
+        {
+          city: 'Malibu',
+          averagePrice: 215,
+          propertyCount: 43,
+          imageUrl: './assets/toronto.png',
+          imageAlt: 'Cliff in Malibu',
+        },
+        {
+          city: 'Chicageo',
+          averagePrice: 130,
+          propertyCount: 115,
+          imageUrl: './assets/toronto.png',
+          imageAlt: 'Chicago skyline',
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -76,143 +83,10 @@ const data = {
         A selection of great work-friendly cities with lots to see and explore.
       </p>
       <div class="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="flex items-center overflow-hidden rounded-lg bg-white shadow-lg"
-        >
-          <img
-            class="h-32 w-32 flex-shrink-0"
-            src="./assets/toronto.png"
-            alt="Toronto skyline"
-          />
-          <div class="px-6 py-4">
-            <h3 class="text-lg font-semibold text-gray-800">Toronto</h3>
-            <p class="text-gray-600">$120 / night average</p>
-            <div class="mt-4">
-              <a
-                href="#"
-                class="text-indigo-500 hover:text-indigo-400"
-                font-semibold
-                text-sm
-                >Explore 76 properties</a
-              >
-            </div>
-          </div>
-        </div>
+        <DestinationCard
+          v-for="destination in popularDestinations"
+          :key="destination.city"
+        ></DestinationCard>
       </div>
     </div>
   </div>

@@ -1,20 +1,19 @@
 <script>
 export default {
-  props: ['destination'],
-  // props: {
-  //   destination: {
-  //     type: Object,
-  //     default() {
-  //       return {
-  //         city: 'Toronto',
-  //         averagePrice: 120,
-  //         propertyCount: 76,
-  //         imageUrl: '/toronto.png',
-  //         imageAlt: 'Toronto skyline',
-  //       };
-  //     },
-  //   },
-  // },
+  props: {
+    destination: {
+      type: Object,
+      default() {
+        return {
+          city: 'Toronto',
+          averagePrice: 120,
+          propertyCount: 76,
+          imageUrl: '/toronto.png',
+          imageAlt: 'Toronto skyline',
+        };
+      },
+    },
+  },
 };
 </script>
 

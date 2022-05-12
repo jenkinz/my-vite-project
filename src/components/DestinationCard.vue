@@ -34,7 +34,7 @@ export default {
       <div class="mt-4">
         <a
           href="#"
-          class="text-indigo-500 hover:text-indigo-400"
+          class="text-brand-dark hover:text-brand"
           font-semibold
           text-sm
           >Explore {{ destination.propertyCount }} properties</a

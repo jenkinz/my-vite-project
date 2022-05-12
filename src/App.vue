@@ -52,11 +52,11 @@ export default {
             alt="Woman workcationing on the beach"
           />
           <h1
-            class="8 mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
+            class="8 mt-6 font-headline text-2xl font-semibold tracking-tight text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl"
           >
             You can work from anywhere.
             <br class="hidden lg:inline" />
-            <span class="text-indigo-500"> Take advantage of it.</span>
+            <span class="text-brand"> Take advantage of it.</span>
           </h1>
           <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
             Workcation helps you find work-friendly rentals in beautiful

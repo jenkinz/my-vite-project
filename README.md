@@ -8,7 +8,11 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 ## Project Setup
 
-**Reference:** https://tailwindcss.com/docs/guides/vite
+**References:**
+
+- https://tailwindcss.com/docs/guides/vite
+- https://levelup.gitconnected.com/vue-3-composition-with-vite-and-tailwind-css-221358b4d7b5
+- https://github.com/vitejs/vite/discussions/4065#discussioncomment-1359932
 
 **Prerequisites:** Install `node.js` (`brew install node`)
 

@@ -15,21 +15,21 @@ export default {
           city: 'Toronto',
           averagePrice: 120,
           propertyCount: 76,
-          imageUrl: './assets/toronto.png',
+          imageUrl: '/toronto.png',
           imageAlt: 'Toronto skyline',
         },
         {
           city: 'Malibu',
           averagePrice: 215,
           propertyCount: 43,
-          imageUrl: './assets/toronto.png',
+          imageUrl: '/toronto.png',
           imageAlt: 'Cliff in Malibu',
         },
         {
-          city: 'Chicageo',
+          city: 'Chicago',
           averagePrice: 130,
           propertyCount: 115,
-          imageUrl: './assets/toronto.png',
+          imageUrl: '/toronto.png',
           imageAlt: 'Chicago skyline',
         },
       ],
@@ -86,6 +86,7 @@ export default {
         <DestinationCard
           v-for="destination in popularDestinations"
           :key="destination.city"
+          :destination="destination"
         ></DestinationCard>
       </div>
     </div>

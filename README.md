@@ -51,3 +51,7 @@ This template should help get you started developing with Vue 3 in Vite. The tem
     - Run `npm run dev` as usual
     - Open Run and Debug (Cmd+Shift+D) and click "Launch Chrome"
     - Set some breakpoints in `.vue` files and reload Chrome to hit
+
+7.  Activate `pre-commit`:
+
+        $ pre-commit install
